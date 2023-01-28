@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musical Keys</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <div class="container">
+            <div id="clap" class="clap" onclick="clap()"><h2>Clap</h2><p>A</p></div>
+            <div id="clap" class="hihat" onclick="hihat()"><h2>Hihat</h2><p>S</p></div>
+            <div id="clap" class="kicik" onclick="kick()"><h2>Kick</h2><p>D</p></div>
+            <div id="clap" class="openhihat" onclick="open_hihat()"><h2>openhihat</h2><p>F</p></div>
+            <div id="clap" class="boom" onclick="boom()"><h2>Boom</h2><p>G</p></div>
+            <p id="demo"></p>
+        </div>
+        
+        <audio src="/Sounds/clap.mp3"></audio>
+        <audio src="/Sounds/hihat.mp3"></audio>
+        <audio src="/Sounds/kick.mp3"></audio>
+        <audio src="/Sounds/open hihat.mp3"></audio>
+        <audio src="/Sounds/boom.mp3"></audio>
+
+        <script src="/music.js"></script>
+</body>
+</html>
