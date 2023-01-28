@@ -1,21 +1,21 @@
 function clap(){
-    const audio = new Audio('/Sounds/clap.mp3');
+    const audio = new Audio('Sounds/clap.MP3');
     audio.play();
     }
 function hihat(){
-    const audio = new Audio('/Sounds/hihat.mp3');
+    const audio = new Audio('Sounds/hihat.MP3');
     audio.play();
     }
 function kick(){
-    const audio = new Audio('/Sounds/kick.mp3');
+    const audio = new Audio('Sounds/kick.MP3');
     audio.play();
     }
 function open_hihat(){
-    const audio = new Audio('/Sounds/open hihat.mp3');
+    const audio = new Audio('Sounds/open hihat.MP3');
     audio.play();
     }
 function boom(){
-    const audio = new Audio('/Sounds/boom.mp3');
+    const audio = new Audio('Sounds/boom.MP3');
     audio.play();
     }
 
